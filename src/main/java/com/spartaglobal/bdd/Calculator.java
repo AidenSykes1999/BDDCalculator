@@ -23,4 +23,8 @@ this.num2 = num2;
         return num1 + num2;
 
     }
+
+    public Integer subtract() {
+        return num1 - num2;
+    }
 }

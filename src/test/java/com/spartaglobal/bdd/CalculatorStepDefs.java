@@ -44,4 +44,11 @@ public class CalculatorStepDefs {
     public void theResultShouldBe(int expected) {
         assertEquals(expected, actual);
     }
+
+    @When("I press subtract")
+    public void iPressSubtract() {
+
+        actual = calc.subtract();
+
+    }
 }
