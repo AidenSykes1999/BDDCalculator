@@ -18,6 +18,6 @@ Feature: Calculator
       Examples:
         |input1|input2|result|
         |1     |1     |0     |
-        |0     |1     |-1     |
+        |0     |1     |-1    |
         |1000  |1     |999   |
 

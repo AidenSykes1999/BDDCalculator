@@ -4,6 +4,10 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.cucumber.java.*;
+
+
+
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -12,6 +16,16 @@ public class CalculatorStepDefs {
     private Calculator calc;
 
     private Integer actual;
+
+//    @After("@Subtract")
+//    public void afterScenario(){
+//        System.out.println(actual);
+//    }
+//
+//    @Before
+//    public void beforeScenario(){
+//        System.out.println("Running before scenario");
+//    }
 
 
 
@@ -51,4 +65,7 @@ public class CalculatorStepDefs {
         actual = calc.subtract();
 
     }
+
+
+
 }
